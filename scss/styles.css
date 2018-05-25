@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-nav {
+  background: #032f3e;
+}
+
+#main-nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#main-nav li {
+  float: left;
+  width: 16.66667%;
+}
+
+@media screen and (max-width: 600px) {
+  #main-nav li {
+    width: 100%;
+  }
+}
+
+#main-nav a {
+  color: #f8f9fb;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+#main-nav a:hover {
+  background: #04455b;
+}
+
+section h1 {
+  font-size: 24px;
+  color: #032f3e;
+  margin: .5em;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right;
+}
+
+.lead-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.lead-banner img {
+  width: 100%;
+}
+
+.lead-banner span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.lead-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.lessons-banner img {
+  width: 100%;
+}
+
+.lessons-banner span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.lessons-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.lessons-banner li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  max-width: 500px;
+  margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+
+#services li {
+  list-style: none;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.33333%;
+}
+
+#services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+
+#services a {
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+
+#services a:hover {
+  color: #3e1203;
+}
+
+#services ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#projects li {
+  list-style: none;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 23.5%;
+}
+
+#projects li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#projects li img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
